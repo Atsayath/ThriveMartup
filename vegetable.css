@@ -1,0 +1,381 @@
+/* General styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --green: rgb(36, 159, 36);
+  --dark: rgb(6, 74, 6);
+}
+
+* {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+}
+
+.background {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background: url(image/vegetable\ page.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 532px;
+}
+
+.content {
+  display: flexbox;
+  width: 35%;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.488);
+  border: none;
+  border-radius: 20px;
+  padding: 70px;
+  margin-right: 80px;
+}
+
+.vegetables .content h3 {
+  padding-bottom: 8px;
+  color: black;
+  font-size: 32px;
+}
+
+.vegetables .content h3 span {
+  background-color: var(--green);
+  color: black;
+  font-size: 32px;
+  padding: 16px;
+  border-radius: 30px;
+}
+
+.vegetables .content p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 0;
+  padding-bottom: 30px;
+}
+
+.content .btn {
+  background-color: black;
+  color: var(--green);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.content .btn:hover {
+  background-color: var(--green);
+  color: white;
+}
+
+/* Supply Chain Section */
+.supplychain {
+  background-color: black;
+  padding: 70px;
+}
+
+.supplychain h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.supplychain .box-container {
+  display: flex;
+  gap: 45px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.supplychain .box {
+  flex: 1;
+}
+
+
+.supplychain .box h3 {
+  color: var(--green);
+  text-align-last: left;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.supplychain .box p {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.supplychain .box a {
+  background-color: var(--green);
+  color: black;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.supplychain .box a:hover {
+  background-color: white;
+  color: var(--green);
+}
+
+/* Products Section */
+.products {
+  padding: 60px 5%;
+}
+
+.products .heading {
+  display: inline-block;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bolder;
+  background: var(--green);
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+  padding: 8px 60px;
+  margin-bottom: 50px;
+}
+
+.products .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.products .box {
+  padding: 10px 15px;
+  background-color: white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.products .box img {
+  width: 100%;
+  height: 200px;
+}
+
+.products .box h4 {
+  font-size: 16px;
+  letter-spacing: .5px;
+  text-align: left;
+}
+
+.products .box h6 {
+  font-size: 14px;
+  letter-spacing: .4px;
+  text-align: left;
+  justify-content: center;
+}
+
+.price-quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.buttons i {
+  cursor: pointer;
+}
+
+.bi-dash-square-fill:hover {
+  color: red;
+}
+
+.bi-plus-square-fill:hover {
+  color: green;
+}
+
+.quantity {
+  width: 35px;
+  height: 23px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 5px;
+  transition: 0.3s ease;
+}
+
+.quantity:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.products .box h5 {
+  font-size: 15px;
+}
+
+.products .box .btn-cart {
+  background-color: rgb(11, 77, 11);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin-right: 7px;
+  border-radius: 4px;
+  font-size: 12px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
+  transition: 0.2s;
+}
+
+.products .box .btn-cart:hover {
+  background-color: white;
+  color: rgb(11, 77, 11);
+  border: none;
+  padding: 8px 14px;
+  margin-right: 7px;
+  border-radius: 4px;
+  font-size: 12px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
+}
+
+.products .box .cart-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products .box:hover {
+  transform: translateY(-5px);
+}
+
+/* Media query for tablets (screens below 992px) */
+@media (max-width: 992px) {
+  .supplychain .box-container {
+    flex-direction: column; /* Stack boxes vertically */
+    gap: 30px; /* Increased gap for spacing */
+  }
+
+  .supplychain .box {
+    height: auto; /* Allow boxes to expand with content */
+  }
+
+  .products .container {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Adjusted column size for tablets */
+    gap: 30px; /* Adjusted gap */
+  }
+
+  .products .box img {
+    height: 160px; /* Adjusted height for images */
+  }
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .background {
+    height: 250px;
+  }
+
+  .content {
+    width: 70%;
+    padding: 15px;
+    margin-left: 10px;
+  }
+
+  .content h3 {
+    font-size: 20px;
+  }
+
+  .content h3 span {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .content p {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+
+  .content .btn {
+    padding: 8px 14px;
+  }
+
+  .supplychain h1 {
+    font-size: 24px;
+  }
+
+  .supplychain .box-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .products {
+    padding: 40px 2%;
+  }
+
+  .products .heading {
+    font-size: 20px;
+    padding: 8px 30px;
+    margin-bottom: 20px;
+  }
+
+  .products .container {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+  }
+
+  .products .box {
+    padding: 8px;
+  }
+
+  .products .box img {
+    height: 120px;
+  }
+
+  .products .box h4 {
+    font-size: 14px;
+  }
+
+  .products .box h5 {
+    font-size: 12px;
+  }
+
+  .content .btn,
+  .supplychain .box a {
+    padding: 5px 8px;
+  }
+}
+
+/* Media query for screens below 700px */
+@media (max-width: 700px) {
+  .products .box img {
+    height: 100px;
+  }
+
+  .products .box h4 {
+    font-size: 12px;
+  }
+
+  .products .box h5 {
+    font-size: 10px;
+  }
+}

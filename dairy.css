@@ -1,0 +1,281 @@
+
+.background {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background: url(image/dairy\ bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 532px;
+}
+
+.content {
+  display: flexbox;
+  width: 35%;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: none;
+  border-radius: 20px;
+  padding: 70px;
+  margin-right: 80px;
+}
+
+.dairy .content h3 {
+  padding-bottom: 8px;
+  color: black;
+  font-size: 40px;
+}
+
+.dairy .content h3 span {
+  background-color: black;
+  color: var(--green);
+  font-size: 40px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+
+.dairy .content p {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 16px 0;
+  padding-bottom: 40px;
+}
+
+.btn {
+  background-color: black;
+  color: var(--green);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: var(--green);
+  color: white;
+}
+
+.products {
+  padding: 100px 5%;
+}
+
+.products .heading {
+  display: inline-block;
+  font-size: 38px;
+  text-align: center;
+  font-weight: bolder;
+  background: var(--green);
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+  padding: 12px 80px;
+  margin: 70px 0px 40px 0px;
+}
+
+.products .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/*Responsiveness*/
+
+@media (max-width: 1000px) {
+  .products .box {
+    width: 30%; 
+  }
+}
+
+@media (max-width: 700px) {
+  .products .box {
+    width: 45%; 
+  }
+}
+
+@media (max-width: 500px) {
+  .products .box {
+    width: 90%; 
+  }
+}
+
+.products .box {
+  padding: 0px 20px 10px 20px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.products .box img{
+  height: 200px;
+  width: 200px;
+}
+
+.products .box h4 {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.price-quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.buttons i {
+  cursor: pointer;
+}
+
+.bi-dash-square-fill:hover {
+  color: red;
+}
+
+.bi-plus-square-fill:hover {
+  color: green;
+}
+
+.quantity {
+  width: 35px;
+  height: 23px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 5px;
+  transition: 0.3s ease;
+}
+
+.quantity:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.products .box h5 {
+  font-size: 17px;
+}
+
+.products .box:hover {
+  transform: translateY(-10px);
+}
+
+.products .box .btn-cart {
+  background-color: rgb(11, 77, 11);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-size: 14px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
+  transition: 0.2s;
+  position: absolute;
+  top: 0%;
+  left: 0;
+}
+
+.products .box .btn-cart:hover {
+  background-color: white;
+  color: rgb(11, 77, 11);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .background {
+    margin-top: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .content {
+    width: 80%;
+    padding: 35px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .dairy .content h3 {
+    font-size: 30px;
+  }
+
+  .dairy .content h3 span {
+    font-size: 30px;
+  }
+
+  .dairy .content p {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .products .heading {
+    font-size: 30px;
+    padding: 10px 40px;
+    margin: 50px 0px 30px 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .background {
+    margin-top: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .content {
+    width: 90%;
+    padding: 20px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .dairy .content h3 {
+    font-size: 24px;
+  }
+
+  .dairy .content h3 span {
+    font-size: 24px;
+  }
+
+  .dairy .content p {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .products .heading {
+    font-size: 24px;
+    padding: 8px 20px;
+    margin: 40px 0px 20px 0px;
+  }
+}

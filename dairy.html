@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thrive Mart</title>
+
+  <link rel="stylesheet" href="general.css">
+
+  <link rel="stylesheet" href="dairy.css">
+
+  <link rel="shortcut icon" type="x-icon" href="logo/logo.jpeg">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+</head>
+<body>
+  
+  <header>
+    <nav>
+        <ul class='nav-bar'>
+          <li class='logo'><a href='#'><img src='./logo/logo.jpeg'/></a><h2>Thrive Mart</h2> </li>
+          <input type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li class="dropdown">
+                  <a href="products.html" class="dropbtn">Products</a>
+                  <div class="dropdown-content">
+                    <a href="dairy.html">Dairy</a>
+                    <a href="vegetable.html">Vegetables</a>
+                    <a href="cosmetics.html">Cosmetics</a>
+                  </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="loyalty.html">Loyalty</a></li>
+                <li><a href="order.html">Order</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+  </header>
+
+
+  <section class="dairy">
+    <div class="background">
+      <div class="content">
+        <h3>Dairy<span> Products</span></h3>
+        <p>
+          Dive into dairy goodness at <br> Thrive Mart!
+        </p>
+        <a href="aboutus.html" class="btn">About us</a>
+      </div>
+    </div>
+
+  </section>
+
+  <setion class="products">
+
+    <h1 class="heading">Dairy Products</h1>
+
+    <div class="container">
+
+      <div class="box" data-id="100" data-name="Milk" data-price="189">
+        <img src="image/milk.jpg" alt="Milk">
+        <h4>Milk</h4>
+        <div class="price-quantity">
+          <h5>Rs.189</h5>
+          <div class="buttons">
+            <i class="bi bi-dash-square-fill"></i>
+            <input type="number" id="quantity-100" class="quantity" value="0" min="0">
+            <i class="bi bi-plus-square-fill"></i>
+          </div>
+        </div>
+        <div class="cart-box">
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    
+      <div class="box" data-id="101" data-name="Cheese" data-price="1,155">
+        <img src="image/Cheese.jpg" alt="Cheese">
+        <h4>Cheese</h4>
+        <div class="price-quantity">
+          <h5>Rs.1,155</h5>
+          <div class="buttons">
+            <i class="bi bi-dash-square-fill"></i>
+            <input type="number" id="quantity-101" class="quantity" value="0" min="0">
+            <i class="bi bi-plus-square-fill"></i>
+          </div>
+        </div>
+        <div class="cart-box">
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    
+      <div class="box" data-id="102" data-name="Butter" data-price="820">
+        <img src="image/butter.jpg" alt="Butter">
+        <h4>Butter</h4>
+        <div class="price-quantity">
+          <h5>Rs.820</h5>
+          <div class="buttons">
+            <i class="bi bi-dash-square-fill"></i>
+            <input type="number" id="quantity-102" class="quantity" value="0" min="0">
+            <i class="bi bi-plus-square-fill"></i>
+          </div>
+        </div>
+        <div class="cart-box">
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    
+      <div class="box" data-id="103" data-name="Ice cream" data-price="1,499">
+        <img src="image/ice cream.png" alt="Ice cream">
+        <h4>Ice cream</h4>
+        <div class="price-quantity">
+          <h5>Rs.1,499</h5>
+          <div class="buttons">
+            <i class="bi bi-dash-square-fill"></i>
+            <input type="number" id="quantity-103" class="quantity" value="0" min="0">
+            <i class="bi bi-plus-square-fill"></i>
+          </div>
+        </div>
+        <div class="cart-box">
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    
+      <div class="box" data-id="104" data-name="Curd" data-price="380">
+        <img src="image/curd.png" alt="Curd">
+        <h4>Curd</h4>
+        <div class="price-quantity">
+          <h5>Rs.380</h5>
+          <div class="buttons">
+            <i class="bi bi-dash-square-fill"></i>
+            <input type="number" id="quantity-104" class="quantity" value="0" min="0">
+            <i class="bi bi-plus-square-fill"></i>
+          </div>
+        </div>
+        <div class="cart-box">
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    
+      <div class="box" data-id="105" data-name="Yogurt" data-price="50">
+        <img src="image/yogurt.png" alt="Yogurt">
+        <h4>Yogurt</h4>
+        <div class="price-quantity">
+          <h5>Rs.50</h5>
+          <div class="buttons">
+            <i class="bi bi-dash-square-fill"></i>
+            <input type="number" id="quantity-105" class="quantity" value="0" min="0">
+            <i class="bi bi-plus-square-fill"></i>
+          </div>
+        </div>
+        <div class="cart-box">
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    
+      <div class="box" data-id="106" data-name="Milk powder" data-price="1,390">
+        <img src="image/milk powder.png" alt="Milk powder">
+        <h4>Milk powder</h4>
+        <div class="price-quantity">
+          <h5>Rs.1,390</h5>
+          <div class="buttons">
+            <i class="bi bi-dash-square-fill"></i>
+            <input type="number" id="quantity-106" class="quantity" value="0" min="0">
+            <i class="bi bi-plus-square-fill"></i>
+          </div>
+        </div>
+        <div class="cart-box">
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    
+      <div class="box" data-id="107" data-name="Yogurt Drink" data-price="120">
+        <img src="image/yogurt drink.png" alt="Yogurt Drink">
+        <h4>Yogurt Drink</h4>
+        <div class="price-quantity">
+          <h5>Rs.120</h5>
+          <div class="buttons">
+            <i class="bi bi-dash-square-fill"></i>
+            <input type="number" id="quantity-107" class="quantity" value="0" min="0">
+            <i class="bi bi-plus-square-fill"></i>
+          </div>
+        </div>
+        <div class="cart-box">
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    
+      <div class="box" data-id="108" data-name="Whipping cream" data-price="1,450">
+        <img src="image/whipping cream.png" alt="Whipping cream">
+        <h4>Whipping cream</h4>
+        <div class="price-quantity">
+          <h5>Rs.1,450</h5>
+          <div class="buttons">
+            <i class="bi bi-dash-square-fill"></i>
+            <input type="number" id="quantity-108" class="quantity" value="0" min="0">
+            <i class="bi bi-plus-square-fill"></i>
+          </div>
+        </div>
+        <div class="cart-box">
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    
+      <div class="box" data-id="109" data-name="Ghee" data-price="1,250">
+        <img src="image/ghee.jpg" alt="Ghee">
+        <h4>Ghee</h4>
+        <div class="price-quantity">
+          <h5>Rs.1,250</h5>
+          <div class="buttons">
+            <i class="bi bi-dash-square-fill"></i>
+            <input type="number" id="quantity-109" class="quantity" value="0" min="0">
+            <i class="bi bi-plus-square-fill"></i>
+          </div>
+        </div>
+        <div class="cart-box">
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    
+      <div class="box" data-id="110" data-name="Mozzarella" data-price="2,350">
+        <img src="image/mozzarella cheese.png" alt="Mozzarella">
+        <h4>Mozzarella</h4>
+        <div class="price-quantity">
+          <h5>Rs.2,350</h5>
+          <div class="buttons">
+            <i class="bi bi-dash-square-fill"></i>
+            <input type="number" id="quantity-110" class="quantity" value="0" min="0">
+            <i class="bi bi-plus-square-fill"></i>
+          </div>
+        </div>
+        <div class="cart-box">
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    
+      <div class="box" data-id="111" data-name="Daily Milk" data-price="130">
+        <img src="image/daily milk.png" alt="Daily Milk">
+        <h4>Daily Milk</h4>
+        <div class="price-quantity">
+          <h5>Rs.130</h5>
+          <div class="buttons">
+            <i class="bi bi-dash-square-fill"></i>
+            <input type="number" id="quantity-111" class="quantity" value="0" min="0">
+            <i class="bi bi-plus-square-fill"></i>
+          </div>
+        </div>
+        <div class="cart-box">
+          <button class="btn-cart">Add to Cart</button>
+        </div>
+      </div>
+    
+    </div>
+    
+
+  </setion>
+  <footer>
+    <div class="footer-container">
+
+      <div class="footer-section store-locator">
+        <a href="index.html" >
+          <h3>Thrive Mart</h3>
+        </a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="prducts.html">Shop</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+           </ul>
+
+      </div>
+
+      <div class="footer-section about">
+        <h3>About Us</h3>
+          <p>
+            Your Online Oasis For Premium Groceries And Culinary Delights, Where Every 
+            Aisle Is Brimming With Quality And Every Click Brings The Taste Of Excellence 
+            To Your Doorstep!
+          </p>
+      </div>
+
+     <div class="footer-section contact">
+      <h3>Contact Us</h3>
+            <p>Email: info@thrivemart.com</p>
+            <p>Phone: (+94)74-046-4232</p>
+        </div>
+   
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 Thrive Mart. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#" class="social-icon">Facebook</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">Instagram</a>
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>

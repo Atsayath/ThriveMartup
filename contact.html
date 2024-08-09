@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thrive Mart</title>
+
+  <link rel="stylesheet" href="general.css">
+
+  <link rel="stylesheet" href="contact.css">
+
+  <link rel="shortcut icon" type="x-icon" href="logo/logo.jpeg">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+</head>
+
+
+<body>
+  <header>
+    <nav>
+        <ul class='nav-bar'>
+          <li class='logo'><a href='#'><img src='./logo/logo.jpeg'/></a><h2>Thrive Mart</h2> </li>
+          <input type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li class="dropdown">
+                  <a href="products.html" class="dropbtn">Products</a>
+                  <div class="dropdown-content">
+                    <a href="dairy.html">Dairy</a>
+                    <a href="vegetable.html">Vegetables</a>
+                    <a href="cosmetics.html">Cosmetics</a>
+                  </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="loyalty.html">Loyalty</a></li>
+                <li><a href="order.html">Order</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+  </header>
+
+  <section class="form">
+
+    <div class="contact-form-container">
+
+      <h1>Contact Us</h1>
+
+      <form>
+          <div class="form-box">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-box">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-box">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-box">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <div class="form-box">
+              <button type="submit">Submit</button>
+          </div>
+      </form>
+  </div>
+
+  </section>
+
+  <footer>
+    <div class="footer-container">
+
+      <div class="footer-section store-locator">
+        <a href="index.html" >
+          <h3>Thrive Mart</h3>
+        </a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="prducts.html">Shop</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+         </ul>
+
+      </div>
+
+      <div class="footer-section about">
+        <h3>About Us</h3>
+          <p>
+            Your Online Oasis For Premium Groceries And Culinary Delights, Where Every 
+            Aisle Is Brimming With Quality And Every Click Brings The Taste Of Excellence 
+            To Your Doorstep!
+          </p>
+      </div>
+
+     <div class="footer-section contact">
+      <h3>Contact Us</h3>
+            <p>Email: info@thrivemart.com</p>
+            <p>Phone: (+94)74-046-4232</p>
+        </div>
+   
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 Thrive Mart. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#" class="social-icon">Facebook</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">Instagram</a>
+        </div>
+
+    </div>
+
+</footer>
+  
+
+
+</body>
+</html>

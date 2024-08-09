@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thrive Mart</title>
+
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="products.css">
+  <link rel="shortcut icon" type="image/x-icon" href="logo/logo.jpeg">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-bar">
+        <li class="logo">
+          <a href="#"><img src="./logo/logo.jpeg" alt="Thrive Mart Logo"></a>
+          <h2>Thrive Mart</h2>
+        </li>
+        <input type="checkbox" id="check">
+        <span class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About</a></li>
+          <li class="dropdown">
+            <a href="products.html" class="dropbtn">Products</a>
+            <div class="dropdown-content">
+              <a href="dairy.html">Dairy</a>
+              <a href="vegetable.html">Vegetables</a>
+              <a href="cosmetics.html">Cosmetics</a>
+            </div>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="loyalty.html">Loyalty</a></li>
+          <li><a href="order.html">Order</a></li>
+          <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+        </span>
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+      </ul>
+    </nav>
+  </header>
+
+    <section class="product-head">
+      <h2>Our Products</h2>
+    </section>
+  
+    <section class="products">
+
+      <h4 class="heading">Fruits</h4>
+
+      <div class="container">
+        
+        <div class="box" data-id="1" data-name="Banana" data-price="486">
+          <img src="image/banana.jpg" alt="Banana">
+          <h4>Banana</h4>
+          <div class="price-quantity">
+            <h5>Rs.486</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-1" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+  
+        <div class="box" data-id="2" data-name="Watermelon" data-price="110">
+          <img src="image/watermelon.png" alt="Watermelon">
+          <h4>Watermelon</h4>
+          <div class="price-quantity">
+            <h5>Rs.110</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-2" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+  
+        <div class="box" data-id="3" data-name="Orange" data-price="579">
+          <img src="image/orange.jpg" alt="Orange">
+          <h4>Orange</h4>
+          <div class="price-quantity">
+            <h5>Rs.579</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-3" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+  
+        <div class="box" data-id="4" data-name="Green Apple" data-price="769">
+          <img src="image/Green-apple.jpg" alt="Green Apple">
+          <h4>Green Apple</h4>
+          <div class="price-quantity">
+            <h5>Rs.769</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-4" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+  
+        <div class="box" data-id="5" data-name="Pineapple" data-price="639">
+          <img src="image/Pineapple.jpeg" alt="Pineapple">
+          <h4>Pineapple</h4>
+          <div class="price-quantity">
+            <h5>Rs.639</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-5" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+  
+        <div class="box" data-id="6" data-name="Pears" data-price="699">
+          <img src="image/pears.jpeg" alt="Pears">
+          <h4>Pears</h4>
+          <div class="price-quantity">
+            <h5>Rs.699</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-6" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="7" data-name="Rambutan" data-price="560">
+          <img src="image/Rambutan.jpg" alt="Rambutan">
+          <h4>Rambutan</h4>
+          <div class="price-quantity">
+            <h5>Rs.560</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-7" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="8" data-name="Guava" data-price="430">
+          <img src="image/Guava.jpg" alt="Guava">
+          <h4>Guava</h4>
+          <div class="price-quantity">
+            <h5>Rs.430</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-8" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="9" data-name="Papaya" data-price="320">
+          <img src="image/Papaya.jpeg" alt="Papaya">
+          <h4>Papaya</h4>
+          <div class="price-quantity">
+            <h5>Rs.320</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-9" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="10" data-name="Grapes" data-price="970">
+          <img src="image/Grapes.jpg" alt="Grapes">
+          <h4>Grapes</h4>
+          <div class="price-quantity">
+            <h5>Rs.970</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-10" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    
+    <section class="products">
+
+      <h4 class="heading">Vegetables</h4>
+
+      <div class="container">
+
+      
+        <div class="box" data-id="11" data-name="Cauliflower" data-price="189">
+          <img src="image/cauliflower.png" alt="Cauliflower">
+          <h4>Cauliflower</h4>
+          <div class="price-quantity">
+            <h5>Rs.189</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-11" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+  
+        <div class="box" data-id="12" data-name="Tomato" data-price="200">
+          <img src="image/tomato.jpg" alt="Tomato">
+          <h4>Tomato</h4>
+          <div class="price-quantity">
+            <h5>Rs.200</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-12" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+  
+        <div class="box" data-id="13" data-name="Broccoli" data-price="249">
+          <img src="image/broccoli.jpg" alt="Broccoli">
+          <h4>Broccoli</h4>
+          <div class="price-quantity">
+            <h5>Rs.249</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-13" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+  
+        <div class="box" data-id="14" data-name="Potato" data-price="59">
+          <img src="image/Potato.jpeg" alt="Potato">
+          <h4>Potato</h4>
+          <div class="price-quantity">
+            <h5>Rs.59</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-14" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+  
+        <div class="box" data-id="15" data-name="Mushroom" data-price="999">
+          <img src="image/mushroom.jpg" alt="Mushroom">
+          <h4>Mushroom</h4>
+          <div class="price-quantity">
+            <h5>Rs.999</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-15" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+  
+        <div class="box" data-id="16" data-name="Beans" data-price="279">
+          <img src="image/beans.jpg" alt="Beans">
+          <h4>Beans</h4>
+          <div class="price-quantity">
+            <h5>Rs.279</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-16" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="17" data-name="Garlic" data-price="150">
+          <img src="image/Garic.jpg" alt="Garlic">
+          <h4>Garlic</h4>
+          <div class="price-quantity">
+            <h5>Rs.150</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-17" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="18" data-name="Onion" data-price="340">
+          <img src="image/Onion.jpg" alt="Onion">
+          <h4>Onion</h4>
+          <div class="price-quantity">
+            <h5>Rs.340</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-18" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="19" data-name="Capsicum" data-price="460">
+          <img src="image/Capsicum.png" alt="Capsicum">
+          <h4>Capsicum</h4>
+          <div class="price-quantity">
+            <h5>Rs.460</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-19" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="20" data-name="Carrot" data-price="99">
+          <img src="image/organic_carrot.jpg" alt="Carrot">
+          <h4>Carrot</h4>
+          <div class="price-quantity">
+            <h5>Rs.99</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-20" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        
+      </div>
+
+    </section>
+
+    <section class="products">
+
+      <h4 class="heading">Dairy products</h4>
+
+      <div class="container">
+  
+        <div class="box" data-id="100" data-name="Milk" data-price="189">
+          <img src="image/milk.jpg" alt="Milk">
+          <h4>Milk</h4>
+          <div class="price-quantity">
+            <h5>Rs.189</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-100" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      
+        <div class="box" data-id="101" data-name="Cheese" data-price="1155">
+          <img src="image/Cheese.jpg" alt="Cheese">
+          <h4>Cheese</h4>
+          <div class="price-quantity">
+            <h5>Rs.1155</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-101" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      
+        <div class="box" data-id="102" data-name="Butter" data-price="820">
+          <img src="image/butter.jpg" alt="Butter">
+          <h4>Butter</h4>
+          <div class="price-quantity">
+            <h5>Rs.820</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-102" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      
+        <div class="box" data-id="103" data-name="Ice cream" data-price="1499">
+          <img src="image/ice cream.png" alt="Ice cream">
+          <h4>Ice cream</h4>
+          <div class="price-quantity">
+            <h5>Rs.1499</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-103" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      
+        <div class="box" data-id="104" data-name="Curd" data-price="380">
+          <img src="image/curd.png" alt="Curd">
+          <h4>Curd</h4>
+          <div class="price-quantity">
+            <h5>Rs.380</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-104" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      
+        <div class="box" data-id="105" data-name="Yogurt" data-price="50">
+          <img src="image/yogurt.png" alt="Yogurt">
+          <h4>Yogurt</h4>
+          <div class="price-quantity">
+            <h5>Rs.50</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-105" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      
+        <div class="box" data-id="106" data-name="Milk powder" data-price="1390">
+          <img src="image/milk powder.png" alt="Milk powder">
+          <h4>Milk powder</h4>
+          <div class="price-quantity">
+            <h5>Rs.1390</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-106" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      
+        <div class="box" data-id="107" data-name="Yogurt Drink" data-price="120">
+          <img src="image/yogurt drink.png" alt="Yogurt Drink">
+          <h4>Yogurt Drink</h4>
+          <div class="price-quantity">
+            <h5>Rs.120</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-107" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      
+        <div class="box" data-id="108" data-name="Whipping cream" data-price="1450">
+          <img src="image/whipping cream.png" alt="Whipping cream">
+          <h4>Whipping cream</h4>
+          <div class="price-quantity">
+            <h5>Rs.1450</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-108" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      
+        <div class="box" data-id="109" data-name="Ghee" data-price="1250">
+          <img src="image/ghee.jpg" alt="Ghee">
+          <h4>Ghee</h4>
+          <div class="price-quantity">
+            <h5>Rs.1250</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-109" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+      
+ 
+ 
+      
+      
+      </div>
+      
+  
+    </section>
+
+
+
+    
+    <section class="products">
+
+      <h4 class="heading">Meat and Seafood</h4>
+
+      <div class="container">
+
+      
+        <div class="box" data-id="30" data-name="Chicken" data-price="1890">
+          <img src="image/Chicken.jpg" alt="Chicken">
+          <h4>Chicken</h4>
+          <div class="price-quantity">
+            <h5>Rs.1890</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-30" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="31" data-name="Fish" data-price="1300">
+          <img src="image/Fish.jpg" alt="Fish">
+          <h4>Fish</h4>
+          <div class="price-quantity">
+            <h5>Rs.1300</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-31" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="32" data-name="Pork" data-price="1920">
+          <img src="image/Pork.jpg" alt="Pork">
+          <h4>Pork</h4>
+          <div class="price-quantity">
+            <h5>Rs.1920</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-32" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="33" data-name="Beef" data-price="2890">
+          <img src="image/Beef.jpg" alt="Beef">
+          <h4>Beef</h4>
+          <div class="price-quantity">
+            <h5>Rs.2890</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-33" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="34" data-name="Sausage" data-price="700">
+          <img src="image/Sausage.jpg" alt="Sausage">
+          <h4>Sausage</h4>
+          <div class="price-quantity">
+            <h5>Rs.700</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-34" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="35" data-name="Ham" data-price="1200">
+          <img src="image/Ham.jpeg" alt="Ham">
+          <h4>Ham</h4>
+          <div class="price-quantity">
+            <h5>Rs.1200</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-35" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="36" data-name="Prawns" data-price="2100">
+          <img src="image/Prawns.jpeg" alt="Prawns">
+          <h4>Prawns</h4>
+          <div class="price-quantity">
+            <h5>Rs.2100</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-36" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="37" data-name="Crab" data-price="1920">
+          <img src="image/Crab.jpeg" alt="Crab">
+          <h4>Crab</h4>
+          <div class="price-quantity">
+            <h5>Rs.1920</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-37" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="38" data-name="Cuttle fish" data-price="1650">
+          <img src="image/cuttle-fish.jpg" alt="Cuttle fish">
+          <h4>Cuttle fish</h4>
+          <div class="price-quantity">
+            <h5>Rs.1650</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-38" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="39" data-name="Chicken liver" data-price="800">
+          <img src="image/Chicken_liver.jpeg" alt="Chicken liver">
+          <h4>Chicken liver</h4>
+          <div class="price-quantity">
+            <h5>Rs.800</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-39" class="quantity" value="0" min="0">
+              <h6>Kg</h6>
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="products">
+
+      <h4 class="heading">Baking and cooking ingredients</h4>
+
+      <div class="container">
+
+      
+        <div class="box" data-id="50" data-name="Sugar" data-price="300">
+          <img src="image/Sugar.jpg" alt="Sugar">
+          <h4>Sugar</h4>
+          <div class="price-quantity">
+            <h5>Rs.300</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-50" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="51" data-name="Salt" data-price="450">
+          <img src="image/Salt.jpg" alt="Salt">
+          <h4>Salt</h4>
+          <div class="price-quantity">
+            <h5>Rs.450</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-51" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="52" data-name="Chilli powder" data-price="620">
+          <img src="image/Chilli_powder.jpg" alt="Chilli powder">
+          <h4>Chilli powder</h4>
+          <div class="price-quantity">
+            <h5>Rs.620</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-52" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="53" data-name="Flour" data-price="800">
+          <img src="image/Flour.jpg" alt="Flour">
+          <h4>Flour</h4>
+          <div class="price-quantity">
+            <h5>Rs.800</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-53" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="54" data-name="Egg" data-price="55">
+          <img src="image/Egg.jpeg" alt="Egg">
+          <h4>Egg</h4>
+          <div class="price-quantity">
+            <h5>Rs.55</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-54" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="55" data-name="Cooking oil" data-price="1500">
+          <img src="image/Cooking_oil.jpeg" alt="Cooking oil">
+          <h4>Cooking oil</h4>
+          <div class="price-quantity">
+            <h5>Rs.1500</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-55" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="56" data-name="Baking powder" data-price="320">
+          <img src="image/Baking_powder.jpeg" alt="Baking powder">
+          <h4>Baking powder</h4>
+          <div class="price-quantity">
+            <h5>Rs.320</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-56" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="57" data-name="Turmeric" data-price="550">
+          <img src="image/Turmeric_powder.jpg" alt="Turmeric">
+          <h4>Turmeric</h4>
+          <div class="price-quantity">
+            <h5>Rs.550</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-57" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="58" data-name="Cocoa" data-price="1890">
+          <img src="image/Cocoa.jpeg" alt="Cocoa">
+          <h4>Cocoa</h4>
+          <div class="price-quantity">
+            <h5>Rs.1890</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-58" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="box" data-id="59" data-name="Yeast" data-price="700">
+          <img src="image/Yeast.jpeg" alt="Yeast">
+          <h4>Yeast</h4>
+          <div class="price-quantity">
+            <h5>Rs.700</h5>
+            <div class="buttons">
+              <i class="bi bi-dash-square-fill"></i>
+              <input type="number" id="quantity-59" class="quantity" value="0" min="0">
+              <i class="bi bi-plus-square-fill"></i>
+            </div>
+          </div>
+          <div class="cart-box">
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+    <div class="box1">
+      <h1>Your Cart</h1>
+      <table id="cart-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="cart-container">
+
+
+        </tbody>
+      </table>
+      <div id="cart-total" class="cart-btn">
+        <h2>Total Amount: Rs. <span id="total-amount">0</span></h2>
+        <div id="cart-actions">
+          <button id="add-to-favorites" class="btn-xx">Add Cart to Favorites</button>
+          <button id="apply-favorites" class="btn-xx">Apply Favorites</button>
+          <button id="reset-cart" class="btn-xx">Reset Cart</button>
+      </div>      
+        <a href="order.html" class="bnb"><button class="buy-xx">Buy now</button></a>
+      </div>
+    </div>
+
+
+
+
+  <footer>
+    <div class="footer-container">
+
+      <div class="footer-section store-locator">
+        <a href="index.html" >
+          <h3>Thrive Mart</h3>
+        </a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="prducts.html">Shop</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+         </ul>
+
+      </div>
+
+      <div class="footer-section about">
+        <h3>About Us</h3>
+          <p>
+            Your Online Oasis For Premium Groceries And Culinary Delights, Where Every 
+            Aisle Is Brimming With Quality And Every Click Brings The Taste Of Excellence 
+            To Your Doorstep!
+          </p>
+      </div>
+
+     <div class="footer-section contact">
+      <h3>Contact Us</h3>
+            <p>Email: info@thrivemart.com</p>
+            <p>Phone: (+94)74-046-4232</p>
+        </div>
+   
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 Thrive Mart. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#" class="social-icon">Facebook</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">Instagram</a>
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
